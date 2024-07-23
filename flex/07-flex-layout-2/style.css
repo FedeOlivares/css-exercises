@@ -17,11 +17,12 @@ body {
 }
 
 .footer {
+  display: flex;
   height: 50px;
   background: #eee;
   color: darkmagenta;
-  text-align: center;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
@@ -29,6 +30,7 @@ body {
   flex-basis: 300px;
   flex-shrink: 0;
   background: royalblue;
+  box-sizing: border-box;
 }
 
 .sidebar ul {
